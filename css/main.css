@@ -191,7 +191,7 @@
 
 .hero_part {
   width: 1940px;
-  height: 4043px;
+  height: 5850px;
   background: #f2efef;
   display: block;
 }
@@ -269,10 +269,6 @@
   line-height: 25.6px; /* 160% */
 }
 
-/* .hero_section2 {
-  display: block;
-} */
-
 .mid_heading {
   margin-top: 200px;
   margin-left: 725px;
@@ -295,68 +291,52 @@
   font-weight: 400;
   line-height: 28.8px; /* 160% */
 }
-/* Section 2 */
 
-.s2_cards {
-  margin-left: 376px;
-  margin-top: 60px;
-  margin-right: 375px;
-  display: block;
-  /* flex-wrap: wrap; */
-  gap: 70px;
+/* .hero_section2 {
+  display: flex;
+} */
+
+.cards {
+  margin-top: 80px;
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  padding-left: 120px;
+  gap: 100px;
 }
 
-.card_pic1 {
-  /* padding-top: 40px; */
-  /* padding-left: 376px; */
-  width: 515px;
-  height: 385.99px;
-  flex-shrink: 0;
+.card {
+  font-size: 40px;
 }
 
-.card1_headings2 {
-  margin-top: 40px;
-  /* padding-right: 1118px; */
-  /* margin-left: 376px; */
-  color: #08546c;
+.images {
+  border-radius: 12px;
+  box-shadow: 1px 1px 40px 1px;
+  width: 800px;
+  height: 600px;
+}
+
+.text_img {
+  text-align: center;
+  padding-top: 26px;
+  color: #265a6a;
+  padding-bottom: 30px;
   font-family: "Inter";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28.8px; /* 96% */
-}
-
-.card1_lasts2 {
-  padding-top: 20px;
-  /* padding-left: 376px; */
-  color: #08546c;
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 25.6px; /* 142.222% */
-}
-
-.card1_texts2 {
-  /* padding-left: 376px; */
-  padding-top: 10px;
-  color: #757575;
-  font-family: "Inter";
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25.6px; /* 160% */
+  font-size: 40px;
 }
 
-.first_cards {
-  display: flex;
-  gap: 140px;
+.link_img {
+  text-align: center;
+  padding-top: 20px;
+  align-items: center;
+  color: rgb(71, 114, 206);
 }
-
-.second_cards {
-  display: flex;
-  gap: 140px;
-  padding-top: 70px;
+.card_icon {
+  padding-top: 10px;
+  height: 35px;
+  width: 40px;
 }
 
 .part_ofmain {
